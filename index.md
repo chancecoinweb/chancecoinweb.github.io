@@ -1,4 +1,5 @@
-## Welcome to GitHub Pages
+## Chance Coin
+### Weekly Lottery Bonuses for those that Buy
 
 You can use the [editor on GitHub](https://github.com/chancecoinweb/chancecoinweb.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
