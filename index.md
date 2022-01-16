@@ -1,38 +1,16 @@
 ## Chance Coin
-### Weekly Lottery Bonuses for those that Buy
+**_Weekly Lottery Bonuses for those that Buy_**
 
-You can use the [editor on GitHub](https://github.com/chancecoinweb/chancecoinweb.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### Give me the summary
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+|  |  |
+| --------------- | --------------- 
+| Network | Polygon Mumbai |
+| Contract | [0x3A8A146F407b9D92C0692756c4E4852B836710F1](https://mumbai.polygonscan.com/address/0x3A8A146F407b9D92C0692756c4E4852B836710F1) |
+| Total Supply | 241,990,000 |
+| Lottery Duration | Weekly for 10 years |
+| Lottery Distribution | 200,000 week (42.98%) |
+| Founder Distribution | 15,000,000 (6.2%) |
+| Allowed Airdrop (total) | 2,990,000 (1.24%) |
+| Dex Distribution (total) | 120,000,000 (49.59% |
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/chancecoinweb/chancecoinweb.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
