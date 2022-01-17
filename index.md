@@ -13,10 +13,18 @@
 
 - https://app.uniswap.org/#/swap?inputCurrency=0x3A8A146F407b9D92C0692756c4E4852B836710F1
 - NOTE: make sure you connect your wallet to the polygon network ([instructions](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/))
-- 
 
 
-### Give me the summary
+### What does the supply look like?
+
+- Distributed over 10 years with weekly lotteries that entire time
+- 50% sold through exchanges and 43% distributed to lottery winners
+
+![image](https://user-images.githubusercontent.com/97802375/149687413-4226a0a0-8cca-41fb-b580-aa2c99a482b0.png)
+
+
+
+### What are some other details I might want to know?
 
 |  |  |
 | --------------- | --------------- 
