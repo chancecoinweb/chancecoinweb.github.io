@@ -11,7 +11,7 @@
 
 #### Uniswap
 
-- https://app.uniswap.org/#/swap?inputCurrency=0x3A8A146F407b9D92C0692756c4E4852B836710F1
+- [Uniswap for CHANCE](https://app.uniswap.org/#/swap?inputCurrency=0x3A8A146F407b9D92C0692756c4E4852B836710F)
 - NOTE: make sure you connect your wallet to the polygon network ([instructions](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/))
 
 
