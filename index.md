@@ -1,5 +1,20 @@
 ## Chance Coin
-**_Weekly Lottery Bonuses for those that Buy_**
+**_Buy now to have a CHANCE at the 200,000 CHANCE coin weekly lottery_**
+
+### What's the deal
+- Weekly lottery where the more you buy the more likely you are to win
+- Transparent distribution of coins with a known static total supply
+- Restrictions on weekly distributions enforced by the contract
+
+
+### Where can I buy CHANCE coin?
+
+#### Uniswap
+
+- https://app.uniswap.org/#/swap?inputCurrency=0x3A8A146F407b9D92C0692756c4E4852B836710F1
+- NOTE: make sure you connect your wallet to the polygon network ([instructions](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/))
+- 
+
 
 ### Give me the summary
 
