@@ -94,7 +94,7 @@ async function checkMyWinnings() {
     console.log(web3Provider);
     let signer = web3Provider.getSigner();
 
-  let coinContract = ethers.Contract(contractABI, contractAddress, signer);
+  let coinContract = new ethers.Contract(contractABI, contractAddress, signer);
 
   let balance = await coinContract.checkMyWinnings();
   console.log(balance);
