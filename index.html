@@ -201,51 +201,68 @@
           <div class="alert alert-danger" id="alert-error-https" style="display: none">
             You must be on a secure connection using https in order to connect to your web3 wallet.
           </div>
+        </div>
           
-          <div class="row">
-            <div class="col-lg-3">
-              <div id="prepare">
-                <button class="btn btn-primary" id="btn-connect">
-                  See if I won
-                </button>
-                
-
-                <div id="connected" style="display: none">
-                  <button class="btn btn-primary" id="btn-disconnect">
-                    Disconnect wallet
-                  </button>
-                  <div id="network">
-                    <p>
-                      <strong>Connected blockchain:</strong> <span id="network-name"></span>
-                    </p>
-      
-                    <p>
-                      <strong>Selected account:</strong> <span id="selected-account"></span>
-                    </p>
-      
-                  </div>
-  
-                </div>
-              </div>
-    
+        <div class="row">
+          <div class="col-lg-3">
+            <div id="prepare">
+              <button class="btn btn-primary" id="btn-connect">
+                See if I won
+              </button>
               
+
+              <div id="connected" style="display: none">
+                <button class="btn btn-primary" id="btn-disconnect">
+                  Disconnect wallet
+                </button>
+                <div id="network">
+                  <p>
+                    <strong>Connected blockchain:</strong> <span id="network-name"></span>
+                  </p>
+    
+                  <p>
+                    <strong>Selected account:</strong> <span id="selected-account"></span>
+                  </p>
+    
+                </div>
+
+              </div>
             </div>
-            <div class="col-lg-9">
-              <div id="no-winnings" style="display: none">
-                <div class="alert alert-dark" role="alert" >
-                  Sorry, you don't have any winnings to claim.
-                </div>
+  
+            
+          </div>
+          <div class="col-lg-9">
+            <div id="no-winnings" style="display: none">
+              <div class="alert alert-dark" role="alert" >
+                Sorry, you don't have any winnings to claim.
+              </div>
+            </div>
+
+            <div id="has-winnings" style="display: none">
+              <div id="has-winning-alert"class="alert alert-success" role="alert" >
+                Congratulations you have won XXX CHANCE.  
               </div>
 
-              <div id="has-winnings" style="display: none">
-                <div id="has-winning-alert"class="alert alert-success" role="alert" >
-                  Congratulations you have won XXX CHANCE.  
-                </div>
-
-                <p><button id="btn-claim-winnings" class="btn btn-primary">Claim Winnings</button></p>
-              </div>
+              <p><button id="btn-claim-winnings" class="btn btn-primary">Claim Winnings</button></p>
             </div>
           </div>
+        </div>
+
+        <div class="row">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Week</th>
+                <th scope="col">Winning Address</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>TBD</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
 
 

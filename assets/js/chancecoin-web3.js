@@ -98,6 +98,7 @@ async function checkMyWinnings() {
 
   let balance = await coinContract.checkMyWinnings();
   console.log(balance);
+  console.log(ethers.utils.formatUnits(balance));
 
   if (balance > 0) {
     document.querySelector("#has-winning-alert").textContent = `Congratulations you have won ${ethers.utils.formatUnits(balance)} CHANCE!`;
