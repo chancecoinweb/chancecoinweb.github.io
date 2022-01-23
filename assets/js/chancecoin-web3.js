@@ -70,34 +70,37 @@ function init() {
  */
 async function checkMyWinnings() {
 
-  // Get a Web3 instance for the wallet
-  const web3 = new Web3(provider);
+//   // Get a Web3 instance for the wallet
+//   const web3 = new Web3(provider);
 
-  console.log("Web3 instance is", web3);
+//   console.log("Web3 instance is", web3);
 
-  // Get connected chain id from Ethereum node
-  const chainId = await web3.eth.getChainId();
-  // Load chain information over an HTTP API
-  const chainData = evmChains.getChain(chainId);
-  document.querySelector("#network-name").textContent = chainData.name;
+//   // Get connected chain id from Ethereum node
+//   const chainId = await web3.eth.getChainId();
+//   // Load chain information over an HTTP API
+//   const chainData = evmChains.getChain(chainId);
+//   document.querySelector("#network-name").textContent = chainData.name;
 
-  // Get list of accounts of the connected wallet
-  const accounts = await web3.eth.getAccounts();
+//   // Get list of accounts of the connected wallet
+//   const accounts = await web3.eth.getAccounts();
 
-  // MetaMask does not give you all accounts, only the selected account
-  console.log("Got accounts", accounts);
-  selectedAccount = accounts[0];
+//   // MetaMask does not give you all accounts, only the selected account
+//   console.log("Got accounts", accounts);
+//   selectedAccount = accounts[0];
 
-  document.querySelector("#selected-account").textContent = selectedAccount;
+//   document.querySelector("#selected-account").textContent = selectedAccount;
+        
+    let web3Provider = new ethers.providers.Web3Provider(window.ethereum);
+    console.log(web3Provider);
+    let signer = web3Provider.getSigner();
 
-  let signer = provider.getSigner();
-  let coinContract = web3.eth.Contract(contractABI, contractAddress, signer);
+  let coinContract = ethers.Contract(contractABI, contractAddress, signer);
 
   let balance = await coinContract.checkMyWinnings();
   console.log(balance);
 
   if (balance > 0) {
-    document.querySelector("#has-winning-alert").textContent = `Congratulations you have won ${Web3.utils.fromWei(balance, 'ether')} CHANCE!`;
+    document.querySelector("#has-winning-alert").textContent = `Congratulations you have won ${ethers.utils.formatUnits(balance)} CHANCE!`;
     document.querySelector("#has-winnings").style.display = "block";
     document.querySelector("#no-winnings").style.display = "none";
   } else {
