@@ -223,8 +223,6 @@ async function onDisconnect() {
 }
 
 
-
-
 let contractAddress = '0x3A8A146F407b9D92C0692756c4E4852B836710F1';
 let contractABI = [
       {
