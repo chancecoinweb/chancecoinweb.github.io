@@ -224,7 +224,7 @@ async function onDisconnect() {
 }
 
 
-let contractAddress = '0x3A8A146F407b9D92C0692756c4E4852B836710F1';
+let contractAddress = '0x54Eda145C0F80A6293405168aF6f6F2125B1EDD1';
 let contractABI = [
       {
         "inputs": [],
